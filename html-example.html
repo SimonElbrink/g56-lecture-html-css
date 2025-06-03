@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>HTML & CSS Basiscs</title>
+  </head>
+  <body>
+    <header>
+      <h1>HTML &amp; CSS Basisce Tutorial</h1>
+    </header>
+
+    <nav>
+      <a href="#">Home</a>
+      <a href="#">Login</a>
+      <a href="#">Register</a>
+      <a href="#">Contact</a>
+    </nav>
+
+    <main>
+      <form>
+        <h3>Register Form</h3>
+        <p>Please fill in the form to register.</p>
+
+        <hr />
+        <label for="fn"><b>First Name</b></label>
+        <input
+          type="text"
+          id="fn"
+          placeholder="Enter First Name"
+          name="firstName"
+          required
+        />
+
+        <br />
+
+        <label for="fn"><b>Last Name</b></label>
+        <input
+          type="text"
+          id="ln"
+          placeholder="Enter Last Name"
+          name="lastName"
+          required
+        />
+
+        <br />
+
+        <label for="Email"><b>Email</b></label>
+        <input
+          type="email"
+          id="Email"
+          placeholder="Enter Email"
+          name="Email"
+          required
+        />
+
+        <br />
+
+        <label for="course">Course</label>
+        <select id="course" name="course">
+          <option value="1">Java</option>
+          <option value="2">C#</option>
+          <option value="3">Python</option>
+        </select>
+        <br />
+        <textarea
+          id="description"
+          name="description"
+          placeholder="Enter subject details here..."
+        ></textarea>
+
+        <br />
+
+        <br />
+        <button type="submit">Register</button>
+      </form>
+
+      <table>
+        <thead>
+          <tr>
+            <th>ID</th>
+            <th>First Name</th>
+            <th>Last Name</th>
+            <th colspan="2">Action</th>
+          </tr>
+        </thead>
+
+        <tbody>
+          <tr>
+            <td>1</td>
+            <td>Simon</td>
+            <td>Elbrink</td>
+            <td>
+              <button type="submit">Edit</button>
+            </td>
+            <td>
+              <button type="submit">Delete</button>
+            </td>
+          </tr>
+          <tr>
+            <td>2</td>
+            <td>Mehrdad</td>
+            <td>Javan</td>
+            <td>
+              <button type="submit">Edit</button>
+            </td>
+            <td>
+              <button type="submit">Delete</button>
+            </td>
+          </tr>
+        </tbody>
+      </table>
+    </main>
+
+    <footer>Copyright &copy; 2025 Lexcion</footer>
+  </body>
+</html>
