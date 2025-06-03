@@ -4,10 +4,53 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>HTML & CSS Basiscs</title>
+
+    <style>
+      * {
+        margin: 0;
+      }
+
+      body {
+        font-family: Arial, Helvetica, sans-serif;
+        background-color: beige;
+      }
+
+      header {
+        background-color: rgb(56, 56, 56);
+        color: #fff;
+        font-size: 16px; /*1em*/
+        padding: 20px;
+
+        margin-bottom: 50px;
+
+        text-align: center;
+
+        /*
+        Box model
+        */
+      }
+
+      nav {
+        background-color: #7e7e7e;
+        padding: 10px;
+
+        text-align: center;
+      }
+
+      .container {
+        padding: 20px;
+        color: #333;
+      }
+    </style>
+
+    <link rel="stylesheet" href="table-style.css">
+    <link rel="stylesheet" href="form-style.css">
+
+
   </head>
-  <body>
+  <body class="container">
     <header>
-      <h1>HTML &amp; CSS Basisce Tutorial</h1>
+      <h1>HTML &amp; CSS Basics Tutorial</h1>
     </header>
 
     <nav>
@@ -112,6 +155,15 @@
       </table>
     </main>
 
-    <footer>Copyright &copy; 2025 Lexcion</footer>
+    <footer
+      style="
+        background-color: black;
+        color: rgb(255, 255, 255);
+        text-align: center;
+        padding: 50px;
+      "
+    >
+      Copyright &copy; 2025 Lexcion
+    </footer>
   </body>
 </html>
